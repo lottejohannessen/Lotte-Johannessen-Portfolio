@@ -2,7 +2,9 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  background-color:#B2B8D9;
+}
 body {
   font-family: 'oswald', sans-serif;
   font-weight: 400;

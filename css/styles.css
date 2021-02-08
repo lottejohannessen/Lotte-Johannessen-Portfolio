@@ -1,56 +1,46 @@
-:root {
-  --primary-color: #357b70;
-  --secondary-color: #e0b354;
-  --dark-grey: #2b2b2b;
-}
-
-
 
 * {
   box-sizing: border-box;
 }
 
-    body {
-      font-family: 'oswald', sans-serif;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.6;
-    }
-    h1 {
-      font-size: 30px;
-      font-weight:700
-    }
-    h2 {
-      font-size: 24px;
-      font-weight: 700;
-    }
-    h3 {
-      font-size: 18px;
-      font-weight: 700;
-    }
-    h4 {
-      font-size: 12px;
-      font-weight: 700;
-    }
+body {
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 30px;
+  font-weight:700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 12px;
+  font-weight: 700;
+}
 /*colors
 background: #B2B8D9 - Soft lavender
 Default Button: #85929E - medium warm grey and white writing
 second button: #D5F5E3 & #186A3B - minty green background with dark green writing
 */
-		body {
-			background-color:#B2B8D9
-		}
 a {
-	color: #2E4053
+	color: #2E4053;
 }
 a:visited {
-	color:#212F3C
+	color:#212F3C;
 }
 a:hover, a:focus {
 	text-decoration: none;
 }
 a:active {
-	color: #1B2631
+	color: #1B2631;
 }
 input, texture, select, button {
 	font-family: system-ui;
@@ -171,7 +161,7 @@ nav {
     grid-column: 3 / 3;
     grid-row: 1 / 3;
   }
-}
+
 
 
 @media all and (max-width: 500px) {

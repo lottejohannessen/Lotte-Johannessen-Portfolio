@@ -3,9 +3,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color:#B2B8D9;
-}
-body {
   font-family: 'oswald', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -32,6 +29,9 @@ background: #B2B8D9 - Soft lavender
 Default Button: #85929E - medium warm grey and white writing
 second button: #D5F5E3 & #186A3B - minty green background with dark green writing
 */
+body {
+  background-color:#B2B8D9;
+}
 a {
 	color: #2E4053;
 }
@@ -132,8 +132,9 @@ nav {
 }
 .page-header__item {
   flex: 0 0 200px;
-  width: 10px;
+  width: 200px;
   border-radius: 50%;
+  height: 200px;
 }
 .page-header__item:last-child {
   flex-grow: 1;
